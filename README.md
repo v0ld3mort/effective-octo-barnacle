@@ -48,6 +48,7 @@ Using display filters such as:
 - `http`
 - `frame matches username` (will match text contents in all sections of a frame - not case sensitive)
 - `frame matches password`
+
 Looking within a HTTP frame, expand the Hypertext Transfer Protocol and if all went well your credentials will be there.
 
 ### Evil Twin Attack
