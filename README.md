@@ -2,18 +2,26 @@
 ### Captive portal session hijack
 
 #### Instructions:
-1. Download `download.sh` by running:
+1. Ensuring you are connected to the desired network, download `download.sh` by running:
+
 `
 wget https://raw.githubusercontent.com/v0ld3mort/effective-octo-barnacle/main/download.sh
 `
 
 2. Once downloaded, you may have to edit privileges, otherwise run with:
+
 `
 chmod 755 download.sh
 ./download.sh
 `
 
 The file will download the required repositories, software, and start the captive portal session hijack attempt. 
+
+To attempt another session hijack, use:
+
+`
+sudo ./hack-captive.sh
+`
 
 As each network differs slightly, it would be best practise to test at different times to ensure you can hijack a session anytime.
 
