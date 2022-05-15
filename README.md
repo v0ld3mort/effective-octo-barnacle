@@ -48,6 +48,7 @@ Using display filters such as:
 - `http`
 - `frame matches username` (will match text contents in all sections of a frame - not case sensitive)
 - `frame matches password`
+Looking within a HTTP frame, expand the Hypertext Transfer Protocol and if all went well your credentials will be there.
 
 ### Evil Twin Attack
 With an evil twin attack we are emulating the Wi-Fi network we want access to, in an attempt to get a client to connect to us, and enter their valid credentials which we will then use later. The easiest way to implement this is using `airgeddon`, a bash script for pentesting wireless networks. It has a lot of uses, but in this instance we will only be using it for an evil twin attack to get credentials. You will require 2 cards already in monitor mode for this - `airmon-ng start wlan0`
