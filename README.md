@@ -19,7 +19,7 @@ As each network differs slightly, it would be best practise to test at different
 
 ### Captive Portal Cred Sniffing
 
-### Instrucions:
+### Instructions:
 This method is simple to execute, however relies upon a couple of parameters:
   1. The captive portal must not be using encryption (i.e. SSL/TLS),
   2. You must have a sniffer up at the time of authentication by the user you are sniffing credentials fork,
