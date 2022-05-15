@@ -2,15 +2,15 @@
 ### Captive portal session hijack
 
 #### Instructions:
-1. Read/download `download.sh`, this is a simple bash script that can be copy+pasted into a terminal or simply ran from the terminal. 
-
-2. Once downloaded, change the file to be executable:
+1. Download `download.sh` by running:
 `
-sudo chmod +x download.sh
+wget https://raw.githubusercontent.com/v0ld3mort/effective-octo-barnacle/main/download.sh
 `
 
-3. And run with:
-`./download.sh
+2. Once downloaded, you may have to edit privileges, otherwise run with:
+`
+chmod 755 download.sh
+./download.sh
 `
 
 The file will download the required repositories, software, and start the captive portal session hijack attempt. 
