@@ -38,6 +38,6 @@ sudo airodump-ng --channel 10 -w /root/capture wlan0
 
 After letting this run for a while, we need to analyse our results in Wireshark.
 Using display filters such as:
-`http`
-`frame matches username` (will match text contents in all sections of a frame - not case sensitive)
-`frame matches password`
+- `http`
+- `frame matches username` (will match text contents in all sections of a frame - not case sensitive)
+- `frame matches password`
